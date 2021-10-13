@@ -1,0 +1,219 @@
+body {
+  background-color: #f0efeb;
+  margin: 0;
+  text-align: center;
+  font-family: "Montserrat", serif;
+  font-size: 1.2rem;
+  /* padding-bottom: 5em; */
+}
+hr {
+  margin: 15px 0;
+}
+p {
+  font-size: 1.2rem;
+}
+/* .description {
+  /* width: 80%; */
+/* text-align: center;
+} */
+h1 {
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 10px 0 10px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+h2 {
+  color: #663f3f;
+  font-size: 2.5rem;
+  padding: 5% 0 3%;
+}
+h3 {
+  color: #663f3f;
+  font-size: 1.5rem;
+  padding-top: 30px;
+  padding-bottom: 1px;
+}
+span {
+  font-style: italic;
+}
+
+.titleImg {
+  padding: 50px 0 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.img1 {
+  width: 70%;
+  margin-left: 10%;
+
+  text-align: center;
+}
+.navbar {
+  padding: 1rem 0 2rem;
+}
+
+#title .container-fluid {
+  background-color: #e97878;
+  color: white;
+  margin: 0;
+  padding: 0 7% 0;
+}
+.feature-box {
+  padding: 5;
+}
+.ul_Ing {
+  list-style: "🔸";
+}
+.ul_Ins {
+  list-style: "◽";
+}
+.ol_Ins {
+  list-style-type: upper-roman;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  font-family: "Redressed", cursive;
+}
+.nav-link {
+  font-family: "Pangolin", cursive;
+}
+.main {
+  margin: 0;
+  padding: 0 15%;
+  background-color: #f0efeb;
+  position: relative;
+  text-align: left;
+}
+#bottom-container {
+  color: #e97878;
+  margin: 0;
+  padding: 1rem 0;
+  background-color: #e97878;
+}
+li {
+  padding: 5px;
+}
+/* .title,
+.ingredients,
+.instructions {
+
+  /* width: 500px; */
+/* margin: 2em 15%;H
+} */
+
+/* img {
+  padding-top: 20px;
+} */
+
+hr {
+  margin: 0 20px;
+}
+
+a {
+  color: #536162;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #007580;
+}
+.main .description {
+  text-align: left;
+  font-size: 1.5rem;
+  padding-bottom: 3%;
+}
+#ingredients {
+  padding-bottom: 5%;
+  margin-bottom: 0;
+}
+#instructions {
+  /* padding-bottom: 2%; */
+}
+#nutriVal {
+  margin-bottom: 35%;
+}
+dl {
+  padding-bottom: 3%;
+}
+dt {
+  font-weight: 600;
+  font-family: Roboto, sans-serif;
+}
+dd {
+  margin-left: 20rem;
+}
+.otherRecipes {
+  text-align: center;
+  padding-bottom: 5%;
+}
+.otherRecipesLinks {
+  margin: 20px 10px 15px 10px;
+  text-align: center;
+}
+
+.span_desc {
+  font-style: normal;
+  color: #c64756;
+}
+.span_desc3 {
+  text-decoration: underline;
+}
+@media (max-width: 401px) {
+  .main {
+    margin: 0;
+    padding: 0 10%;
+    background-color: #f0efeb;
+    position: relative;
+    text-align: left;
+  }
+  .titleImg {
+    /* width: 30%; */
+    padding: 20px 0 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  .description {
+    margin: 0;
+  }
+  .otherRecipesLinks {
+    padding: 10% 0%;
+    margin: 0;
+  }
+}
+@media (max-width: 750px) {
+  .main {
+    margin: 0;
+    padding: 0 10%;
+    background-color: #f0efeb;
+    position: relative;
+    text-align: left;
+  }
+
+  .description {
+    width: 100%;
+    padding: 2% 2%;
+  }
+  .titleImg {
+    /* width: 30%; */
+    padding: 50px 0 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+  .otherRecipesLinks {
+    padding: 10% 0;
+  }
+}
